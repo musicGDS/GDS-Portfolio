@@ -1,0 +1,66 @@
+* {
+/*    font-family: 'Acme', sans-serif;*/
+    font-family: 'Josefin Sans', sans-serif;    
+}
+
+h1 {
+    font-size: 200% ;    
+}
+
+.portfolio-content {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.portfolio-item { 
+    padding: 15px;
+    background-color: whitesmoke;
+}
+
+.portfolio-about {
+    color: black !important;
+}
+
+.item-name,
+.item-year,
+.item-role,
+.item-text {
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+.item-name {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.item-role {
+    font-size: 1.4em;
+    padding: 0.5em;
+}
+
+.item-year {
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+
+.portfolio-masthead {
+  min-height: 8rem;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+
+
+.portfolio-title {
+    font-size: 3em;
+}
+
+.item-image {
+    width: 100%;
+    height: auto;   
+}
